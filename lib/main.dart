@@ -111,7 +111,7 @@ class App extends StatelessWidget {
                         useMaterial3: true, dividerColor: Colors.transparent),
                     locale: getLocaleLanguage(context.watch<LanguageBloc>().state.languageCode),
                     supportedLocales: L10n.all,
-                    title: 'Chimillas',
+                    title: 'Ainzón',
                     home: Home(),
                     localizationsDelegates: const [
                       AppLocalizations.delegate,
@@ -192,10 +192,10 @@ class HomeState extends State<Home> {
         const Duration(seconds: 1),
             (Timer t) =>
             setState(() {
-              section.getWeather(42.17131586971877, -0.4523206650598738).then(
+              section.getWeather(41.812658603422186, -1.519052979291903).then(
                       (value) =>
                   weather =
-                      value); //42.138642896056545, -0.40759873321216106
+                      value);
             }));
   }
 

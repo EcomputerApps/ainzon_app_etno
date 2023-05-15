@@ -37,7 +37,7 @@ class TourismState extends State<PageTourism> {
   final Completer<GoogleMapController> _controller =
   Completer<GoogleMapController>();
   static const CameraPosition _kGooglePlex = CameraPosition(
-    target: LatLng(42.17122008920401, -0.45230446731245655),
+    target: LatLng(41.812658603422186, -1.519052979291903),
     zoom: 15.4746,
   );
 

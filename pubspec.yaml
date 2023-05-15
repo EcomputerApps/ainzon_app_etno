@@ -72,7 +72,7 @@ dependencies:
   custom_info_window: ^1.0.1
 
 flutter_native_splash:
-  color: "#5FC2D9"
+  color: "#FFFFFF"
   image: 'assets/app.png'
 
 dev_dependencies:
